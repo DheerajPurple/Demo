@@ -37,7 +37,7 @@ public class UserService implements IUserService{
 			userRepository.save(user);
 	}
 
-	
+	//list
 	public List<UserDTO> findUsers() {
 		List<UserPojo> users = userRepository.findAll();
 		String usersString = new Gson().toJson(users);
