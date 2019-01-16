@@ -13,11 +13,6 @@ import com.purple.demo.dto.UserDTO;
 import com.purple.demo.pojo.UserPojo;
 import com.purple.demo.service.IUserService;
 
-
-
-
-
-
 @RestController
 public class UserController {
 
